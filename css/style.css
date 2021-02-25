@@ -7,6 +7,7 @@
 }
 
 
+
 .clearfix::after{
   content: "";
   display: table;
@@ -21,6 +22,11 @@ main .links,
 main .main-content,
 main .widgets{
   float: left;
+}
+
+body{
+  width: 80%;
+  margin: auto;
 }
 
 /* HEADER */
@@ -39,24 +45,25 @@ main{
   background-color: pink;
   height: 400px;
   margin-bottom: 30px;
+
 }
 
 main .links {
   width: 20%;
   background-color: orchid;
-  height: 70%;
+/*   height: 70%; */
 }
 
 main .main-content{
   width: 56%;
   margin: 0 2%;
-  height: 70%;
+/*   height: 70%; */
   background-color: palegreen;
 }
 
 main .widgets{
   width: 20%;
-  height: 70%;
+/*   height: 70%; */
   background-color: yellow;
 
 }
